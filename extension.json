@@ -1,0 +1,13 @@
+{
+  "name": "42header",
+  "version": "1.0.0",
+  "description": "Auto-inserts and updates the 42 school header on save.",
+  "authors": ["Louka2b"],
+  "settings": {
+    "type": "object",
+    "properties": {
+      "42header.username": { "type": "string", "description": "42 login" },
+      "42header.email": { "type": "string", "description": "42 mail" }
+    }
+  }
+}
