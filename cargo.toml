@@ -1,10 +1,13 @@
 [package]
 name = "42header"
 version = "0.1.0"
-edition = "2026"
+edition = "2021"
+description = "Auto-inserts and updates the 42 school header on save."
+authors = ["Louka2b"]
+license = "MIT"
 
 [lib]
 crate-type = ["cdylib"]
 
 [dependencies]
-zed_extension_api = "0.1.0"
+zed_extension_api = "0.12.0"

@@ -1,0 +1,11 @@
+id = "42header"
+name = "42 Header"
+version = "0.1.0"
+schema_version = 1
+authors = ["Louka2b"]
+description = "Auto-inserts and updates the 42 school header on save."
+repository = "https://github.com/Louka2b/zed-42header"
+
+[settings]
+42header.username = { type = "string", default = "user", description = "42 login" }
+42header.email = { type = "string", default = "user@student.42.fr", description = "42 mail" }
