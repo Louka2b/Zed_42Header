@@ -1,5 +1,5 @@
 [package]
-name = "42header"
+name = "header42"
 version = "0.1.0"
 edition = "2021"
 description = "Auto-inserts and updates the 42 school header on save."
@@ -10,4 +10,6 @@ license = "MIT"
 crate-type = ["cdylib"]
 
 [dependencies]
-zed_extension_api = "0.12.0"
+zed_extension_api = "0.7.0"
+
+[workspace]
